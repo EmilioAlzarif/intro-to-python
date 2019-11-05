@@ -17,7 +17,12 @@ if args.num_y:
 if args.num_d:
     tdeltad= tdelta + datetime.timedelta(days= args.num_d + 1)
 
-x = tdeltay + tdeltad
-print("Given days :", args.num_d)
-print("Given years :", args.num_y)
-print("Final date :", tdy + x)
+    x = tdeltay + tdeltad
+    print("Given days :", args.num_d)
+    print("Given years :", args.num_y)
+    print("Final date :", tdy + x)
+
+else:
+    print("Given days : None")
+    print("Given years : None")
+    print("Final date :", tdy)
