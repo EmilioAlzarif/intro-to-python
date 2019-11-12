@@ -16,7 +16,8 @@ b = ["grapes", "Potatoes", "tomatoes","Orange", "Lemon", "Broccoli", "Carrot", "
 
 b_sorted = b.copy()
 b_sorted.sort()
-print(b_sorted)
+print(b_sorted)                       #8
 
-c =[a[1:4], b[4:7]]
-print(c)
+c = list()
+c += a[1:4] + b[4:7]                  #9
+print(c)                              #10
